@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": 3,
+            "title": "Slider Three",
+            "description": "Slider Three",
+            "status": 5,
+            "image": "https://dadamoni.com/storage/253/conversions/banner-3-cover.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Slider Two",
+            "description": "Slider Two",
+            "status": 5,
+            "image": "https://dadamoni.com/storage/252/conversions/banner-2-cover.jpg"
+        },
+        {
+            "id": 1,
+            "title": "Slider One",
+            "description": "Slider One",
+            "status": 5,
+            "image": "https://dadamoni.com/storage/251/conversions/banner-1-cover.jpg"
+        }
+    ]
+}

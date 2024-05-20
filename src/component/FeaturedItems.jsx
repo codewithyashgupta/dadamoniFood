@@ -2,7 +2,7 @@ import { IoMdInformationCircle } from "react-icons/io";
 import { FaBagShopping } from "react-icons/fa6";
 import React, { useState, useEffect } from "react";
 import ItemData from "./../assets/FeaturedItem.json";
-import "../component/FeaturedItem.css";
+import "./../assets/FeaturedItem.css";
 function FeaturedItems() {
   const [items, setItems] = useState([]);
   useEffect(() => {

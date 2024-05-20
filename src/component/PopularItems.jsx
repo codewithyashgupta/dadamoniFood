@@ -1,4 +1,4 @@
-import "../component/PopularItems.css";
+import "./../assets/PopularItems.css";
 import { IoMdInformationCircle } from "react-icons/io";
 import { FaBagShopping } from "react-icons/fa6";
 import React, { useState, useEffect } from "react";

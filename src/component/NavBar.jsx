@@ -4,6 +4,7 @@ import { IoIosClose } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
 import Logo from "./../assets/logo.jpg";
+import { NavLink } from "react-router-dom";
 
 
 function NavBar() {
@@ -23,15 +24,15 @@ function NavBar() {
             {item.name}
           </Link>
         ))} */}
-            <a className="text-sm font-semibold capitalize active" href="/">
+            <NavLink to="/" className="text-sm font-semibold capitalize active" href="/">
               Home
-            </a>
-            <a className="text-sm font-semibold capitalize" href="/allsweets">
+            </NavLink>
+            <NavLink to="/all-sweets" className="text-sm font-semibold capitalize" href="/allsweets">
               All Sweets
-            </a>
-            <a className="text-sm font-semibold capitalize" href="/offers">
+            </NavLink>
+            <NavLink to="/offers" className="text-sm font-semibold capitalize" href="/offers">
               Offers
-            </a>
+            </NavLink>
           </nav>
           <div className="flex flex-col items-center justify-end w-full gap-3 mt-4 lg:flex-row lg:w-fit lg:mt-0">
             <form className="header-search-group group flex items-center justify-center border border-solid gap-2 px-2 w-full lg:w-52 h-8 rounded-3xl transition border-[#EFF0F6]  focus-within:bg-white focus-within:border-red-900 bg-slate-200">

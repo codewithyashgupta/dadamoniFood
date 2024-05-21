@@ -17,7 +17,6 @@ function FourGridStructure({item}) {
           <button
             type="button"
             className="product-card-info info-btn"
-            data-modal="#item-info-modal"
           >
             <IoMdInformationCircle />
           </button>
@@ -32,7 +31,7 @@ function FourGridStructure({item}) {
             </h4>
           </div>
           <button
-            className="product-card-btn add-btn"
+            className="product-card-cart-btn add-btn"
           >
             <FaBagShopping className="transition lab lab-bag-2 font-fill-white lab-font-size-14" />
             <span className="text-xs text-white transition">Add</span>

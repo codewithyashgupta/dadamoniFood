@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosClose } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
-import Logo from "./../assets/logo.jpg";
+import { Logo_URL } from "../Utilities/configureFIle";
 import { NavLink } from "react-router-dom";
 
 
@@ -15,15 +15,10 @@ function NavBar() {
         <div className="container flex flex-col items-center justify-between lg:flex-row">
           <div className="flex items-center justify-between w-full gap-5 xl:gap-8 lg:justify-start lg:w-fit">
             <a href="/" className="active router-link-exact-active header-logo">
-              <img src={Logo} alt="" className="w-64" />
+              <img src={Logo_URL} alt="" className="w-64" />
             </a>
           </div>
           <nav className="items-center justify-center hidden gap-6 lg:flex">
-            {/* {navItems.map((item, index) => (
-          <Link key={index} to={item.link}>
-            {item.name}
-          </Link>
-        ))} */}
             <NavLink to="/" className="text-sm font-semibold capitalize active" href="/">
               Home
             </NavLink>

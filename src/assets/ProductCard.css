@@ -30,12 +30,15 @@
     align-items: flex-start;
     align-items: center;
     gap: 0.5rem;
+    color: rgb(73, 57, 57);
 }
 .product-card-description {
     margin-bottom: 0.75rem;
     text-overflow: ellipsis;
     font-size: 0.75rem;
     line-height: 1rem;
+    color: rgb(73, 57, 57);
+    font-weight: 500;
 }
 .product-card-footer {
     display: flex;

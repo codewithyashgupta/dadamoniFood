@@ -23,7 +23,7 @@ const Carousel = () => {
   };
   return (
     <>
-      <div className="w-full mb-10 lg:mb-20 mt h-[30vw]">
+      <div className="w-screen mb-10 lg:mb-20 mt h-[30vw]">
       <Swiper
          spaceBetween={30}
          centeredSlides={true}

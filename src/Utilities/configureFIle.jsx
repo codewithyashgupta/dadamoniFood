@@ -12,6 +12,3 @@ export const Instagram_URL = 'https://www.instagram.com/dadamonisweet'
 export const Facebook_URL = 'https://www.facebook.com/profile.php?id=61556527837426'
 export const Twitter_URL = 'https://twitter.com/dadamonis?lang=en'
 export const Youtube_URL = 'https://www.youtube.com/@dadamonis'
-
-// -----------React Icons-----------
- 

@@ -9,31 +9,30 @@ function FourGridStructure({item}) {
       <img
         src={item.cover}
         alt={item.name}
-        className="product-card-grid-image"
+        className="product-card-image"
       />
-      <div className="product-card-grid-content-group">
-        <div className="product-card-grid-header-group">
-          <h3 className="product-card-grid-title">{item.name}</h3>
+      <div className="product-card-content">
+        <div className="product-card-header">
+          <h3 className="product-card-title">{item.name}</h3>
           <button
             type="button"
-            className="product-card-grid-info-btn info-btn"
+            className="product-card-info info-btn"
             data-modal="#item-info-modal"
           >
             <IoMdInformationCircle />
           </button>
         </div>
-        <p className="product-card-grid-describe char-limit">
+        <p className="product-card-description char-limit">
           {item.description}
         </p>
-        <div className="product-card-grid-footer-group">
-          <div className="product-card-grid-price-group">
-            <h4 className="product-card-grid-price-current">
+        <div className="product-card-footer">
+          <div className="product-card-price">
+            <h4 className="product-card-current-price">
               ₹{item.flat_price}
             </h4>
           </div>
           <button
-            data-modal="#item-variation-modal"
-            className="product-card-grid-cart-btn add-btn"
+            className="product-card-btn add-btn"
           >
             <FaBagShopping className="transition lab lab-bag-2 font-fill-white lab-font-size-14" />
             <span className="text-xs text-white transition">Add</span>

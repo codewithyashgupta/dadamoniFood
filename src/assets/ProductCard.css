@@ -15,7 +15,7 @@
     transition-duration: 300ms;
     transition-timing-function: linear;
 }
-.product-card-list-image {
+.product-card-image {
     height: 100%;
     width: 7rem;
     flex-shrink: 0;
@@ -24,26 +24,26 @@
     -o-object-fit: cover;
     object-fit: cover;
 }
-.product-card-list-header-group {
+.product-card-header {
     margin-bottom: 0.5rem;
     display: flex;
     align-items: flex-start;
     align-items: center;
     gap: 0.5rem;
 }
-.product-card-list-describe {
+.product-card-description {
     margin-bottom: 0.75rem;
     text-overflow: ellipsis;
     font-size: 0.75rem;
     line-height: 1rem;
 }
-.product-card-list-footer-group {
+.product-card-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 0.5rem;
 }
-.product-card-list-content-group {
+.product-card-content {
     display: flex;
     height: 100%;
     width: 100%;
@@ -53,14 +53,14 @@
     border-bottom-right-radius: 0.5rem;
     padding: 0.75rem;
 }
-.product-card-list-title {
+.product-card-title {
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: 600;
     text-transform: capitalize;
     color: #1F1F39;
 }
-.product-card-list-price-group {
+.product-card-price {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -68,7 +68,7 @@
     column-gap: 0.5rem;
 }
 
-.product-card-list-cart-btn {
+.product-card-cart-btn {
     display: flex;
     height: 1.5rem;
     align-items: center;
@@ -96,7 +96,7 @@
     color: white;
 }
 
-.product-card-list-info-btn:hover{
+.product-card-info:hover{
     color: #F4AE00;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -113,7 +113,7 @@
     -ms-transition:  0.3s ease, color 0.3s ease;
     -o-transition:  0.3s ease, color 0.3s ease;
 }
-.product-card-list-price-current {
+.product-card-current-price {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 600;

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 import { IoMdInformationCircle } from "react-icons/io";
 import { FaBagShopping } from "react-icons/fa6";
 import "./../assets/FourGridItem.css";
-
-function FourGridStructure({item}) {
+import ProductKnowingModal from "./ProductKnowingModal";
+import { useState } from "react";
+function FourGridStructure({ item }) {
+  const [isModalOpen, setModalOpen] = useState(false);
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
   return (
     <div key={item.id} className="product-card-grid">
       <img
@@ -17,29 +21,33 @@ function FourGridStructure({item}) {
           <button
             type="button"
             className="product-card-info info-btn"
+            onClick={openModal}
           >
             <IoMdInformationCircle />
           </button>
+          {isModalOpen && (
+            <ProductKnowingModal
+              price={item.price}
+              description={item.description}
+              name={item.name}
+              closeModal={closeModal}
+              isOpen={isModalOpen}
+            />
+          )}
         </div>
-        <p className="product-card-description">
-          {item.description}
-        </p>
+        <p className="product-card-description">{item.description}</p>
         <div className="product-card-footer">
           <div className="product-card-price">
-            <h4 className="product-card-current-price ">
-              ₹{item.flat_price}
-            </h4>
+            <h4 className="product-card-current-price ">₹{item.flat_price}</h4>
           </div>
-          <button
-            className="product-cart-btn add-btn"
-          >
+          <button className="product-cart-btn add-btn">
             <FaBagShopping className="transition lab lab-bag-2 font-fill-white lab-font-size-14" />
             <span className="text-xs text-white transition">Add</span>
           </button>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default FourGridStructure
+export default FourGridStructure;

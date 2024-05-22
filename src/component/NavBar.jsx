@@ -11,7 +11,7 @@ function NavBar() {
   return (
     
     <>
-      <header className="sticky top-0 z-10 p-4 mb-2 bg-white shadow-xs z-1">
+      <header className="sticky top-0 z-10 p-4 mb-2 bg-white shadow-xs z-1000">
         <div className="container flex flex-col items-center justify-between lg:flex-row">
           <div className="flex items-center justify-between w-full gap-5 xl:gap-8 lg:justify-start lg:w-fit">
             <a href="/" className="active router-link-exact-active header-logo">

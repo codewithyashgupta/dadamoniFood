@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import sliderData from "./../assets/slider.json";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Slider } from "../Utilities/configureFIle";
 
 const Carousel = () => {
   const [slides, setSlides] = useState([]);

@@ -12,3 +12,10 @@ export const Instagram_URL = 'https://www.instagram.com/dadamonisweet'
 export const Facebook_URL = 'https://www.facebook.com/profile.php?id=61556527837426'
 export const Twitter_URL = 'https://twitter.com/dadamonis?lang=en'
 export const Youtube_URL = 'https://www.youtube.com/@dadamonis'
+
+// ----------APIs-------------------
+export const Item_Category = 'https://dadamoni.com/api/frontend/item-category?paginate=0&order_column=id&order_type=asc&status=5'
+export const Slider = 'https://dadamoni.com/api/frontend/slider?paginate=0&order_column=id&order_type=desc&status=5'
+export const Featured_Item = 'https://dadamoni.com/api/frontend/item/featured-items?order_column=id&order_type=desc'
+export const Popular_Item = 'https://dadamoni.com/api/frontend/item/popular-items?order_column=id&order_type=desc'
+export const Classic_Item = 'https://dadamoni.com/api/frontend/item-category/show/classic-sweets'

@@ -1,0 +1,475 @@
+{
+    "data": [
+        {
+            "id": 122,
+            "name": "Rasgulla",
+            "slug": "rasgulla",
+            "flat_price": "18.00",
+            "convert_price": 18,
+            "currency_price": "₹18.00",
+            "price": "18.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "18 Per piece /  430 Per KG",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/228/conversions/Rasgulla-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/228/conversions/Rasgulla-cover.jpg",
+            "preview": "https://dadamoni.com/storage/228/conversions/Rasgulla-preview.jpg",
+            "variations": {
+                "8": [
+                    {
+                        "id": 277,
+                        "item_id": 122,
+                        "item_attribute_id": 8,
+                        "name": "Pcs",
+                        "price": "0.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T05:52:42.000000Z",
+                        "updated_at": "2024-03-14T06:17:12.000000Z",
+                        "convert_price": 0,
+                        "currency_price": "₹0.00",
+                        "flat_price": "₹0.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    },
+                    {
+                        "id": 280,
+                        "item_id": 122,
+                        "item_attribute_id": 8,
+                        "name": "KG",
+                        "price": "412.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T06:17:39.000000Z",
+                        "updated_at": "2024-03-14T06:17:39.000000Z",
+                        "convert_price": 412,
+                        "currency_price": "₹412.00",
+                        "flat_price": "₹412.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    }
+                ]
+            },
+            "itemAttributes": [
+                {
+                    "id": 8,
+                    "name": "Weight",
+                    "status": 5
+                }
+            ],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        },
+        {
+            "id": 136,
+            "name": "Gulabjamun",
+            "slug": "gulabjamun",
+            "flat_price": "28.00",
+            "convert_price": 28,
+            "currency_price": "₹28.00",
+            "price": "28.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "1 Pcs",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/240/conversions/Gulabjamun-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/240/conversions/Gulabjamun-cover.jpg",
+            "preview": "https://dadamoni.com/storage/240/conversions/Gulabjamun-preview.jpg",
+            "variations": {
+                "8": [
+                    {
+                        "id": 287,
+                        "item_id": 136,
+                        "item_attribute_id": 8,
+                        "name": "Pcs",
+                        "price": "0.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T06:58:00.000000Z",
+                        "updated_at": "2024-03-14T06:58:00.000000Z",
+                        "convert_price": 0,
+                        "currency_price": "₹0.00",
+                        "flat_price": "₹0.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    },
+                    {
+                        "id": 288,
+                        "item_id": 136,
+                        "item_attribute_id": 8,
+                        "name": "1 kg",
+                        "price": "402.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T06:58:26.000000Z",
+                        "updated_at": "2024-03-14T07:02:23.000000Z",
+                        "convert_price": 402,
+                        "currency_price": "₹402.00",
+                        "flat_price": "₹402.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    }
+                ]
+            },
+            "itemAttributes": [
+                {
+                    "id": 8,
+                    "name": "Weight",
+                    "status": 5
+                }
+            ],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        },
+        {
+            "id": 124,
+            "name": "Rajbhog",
+            "slug": "rajbhog",
+            "flat_price": "22.00",
+            "convert_price": 22,
+            "currency_price": "₹22.00",
+            "price": "22.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "1 Pcs",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/229/conversions/Rajbhog-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/229/conversions/Rajbhog-cover.jpg",
+            "preview": "https://dadamoni.com/storage/229/conversions/Rajbhog-preview.jpg",
+            "variations": {
+                "8": [
+                    {
+                        "id": 309,
+                        "item_id": 124,
+                        "item_attribute_id": 8,
+                        "name": "Pcs",
+                        "price": "0.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:11:51.000000Z",
+                        "updated_at": "2024-03-14T07:11:51.000000Z",
+                        "convert_price": 0,
+                        "currency_price": "₹0.00",
+                        "flat_price": "₹0.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    },
+                    {
+                        "id": 310,
+                        "item_id": 124,
+                        "item_attribute_id": 8,
+                        "name": "1 kg",
+                        "price": "408.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:12:09.000000Z",
+                        "updated_at": "2024-03-14T07:12:09.000000Z",
+                        "convert_price": 408,
+                        "currency_price": "₹408.00",
+                        "flat_price": "₹408.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    }
+                ]
+            },
+            "itemAttributes": [
+                {
+                    "id": 8,
+                    "name": "Weight",
+                    "status": 5
+                }
+            ],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        },
+        {
+            "id": 129,
+            "name": "Sandesh (Gur)",
+            "slug": "sandesh-gur",
+            "flat_price": "18.00",
+            "convert_price": 18,
+            "currency_price": "₹18.00",
+            "price": "18.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "1 Pcs",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/250/conversions/Gur-Sankha-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/250/conversions/Gur-Sankha-cover.jpg",
+            "preview": "https://dadamoni.com/storage/250/conversions/Gur-Sankha-preview.jpg",
+            "variations": {
+                "8": [
+                    {
+                        "id": 301,
+                        "item_id": 129,
+                        "item_attribute_id": 8,
+                        "name": "Pcs",
+                        "price": "0.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:08:34.000000Z",
+                        "updated_at": "2024-03-14T07:08:34.000000Z",
+                        "convert_price": 0,
+                        "currency_price": "₹0.00",
+                        "flat_price": "₹0.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    },
+                    {
+                        "id": 302,
+                        "item_id": 129,
+                        "item_attribute_id": 8,
+                        "name": "1 kg",
+                        "price": "802.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:08:45.000000Z",
+                        "updated_at": "2024-03-14T07:08:45.000000Z",
+                        "convert_price": 802,
+                        "currency_price": "₹802.00",
+                        "flat_price": "₹802.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    }
+                ]
+            },
+            "itemAttributes": [
+                {
+                    "id": 8,
+                    "name": "Weight",
+                    "status": 5
+                }
+            ],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        },
+        {
+            "id": 140,
+            "name": "Gujiya",
+            "slug": "gujiya",
+            "flat_price": "160.00",
+            "convert_price": 160,
+            "currency_price": "₹160.00",
+            "price": "160.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "250 gm",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/264/conversions/Gujiya-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/264/conversions/Gujiya-cover.jpg",
+            "preview": "https://dadamoni.com/storage/264/conversions/Gujiya-preview.jpg",
+            "variations": [],
+            "itemAttributes": [],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        },
+        {
+            "id": 123,
+            "name": "Raskadam",
+            "slug": "raskadam",
+            "flat_price": "22.00",
+            "convert_price": 22,
+            "currency_price": "₹22.00",
+            "price": "22.000000",
+            "item_type": 5,
+            "status": 5,
+            "description": "1 Pcs",
+            "caution": "",
+            "thumb": "https://dadamoni.com/storage/226/conversions/Raskadam-thumb.jpg",
+            "cover": "https://dadamoni.com/storage/226/conversions/Raskadam-cover.jpg",
+            "preview": "https://dadamoni.com/storage/226/conversions/Raskadam-preview.jpg",
+            "variations": {
+                "8": [
+                    {
+                        "id": 311,
+                        "item_id": 123,
+                        "item_attribute_id": 8,
+                        "name": "Pcs",
+                        "price": "0.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:12:37.000000Z",
+                        "updated_at": "2024-03-14T07:12:37.000000Z",
+                        "convert_price": 0,
+                        "currency_price": "₹0.00",
+                        "flat_price": "₹0.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    },
+                    {
+                        "id": 312,
+                        "item_id": 123,
+                        "item_attribute_id": 8,
+                        "name": "1 kg",
+                        "price": "408.000000",
+                        "caution": null,
+                        "status": 5,
+                        "creator_type": null,
+                        "creator_id": null,
+                        "editor_type": null,
+                        "editor_id": null,
+                        "deleted_at": null,
+                        "created_at": "2024-03-14T07:12:52.000000Z",
+                        "updated_at": "2024-03-14T07:12:52.000000Z",
+                        "convert_price": 408,
+                        "currency_price": "₹408.00",
+                        "flat_price": "₹408.00",
+                        "item_attribute": {
+                            "id": 8,
+                            "name": "Weight",
+                            "status": 5,
+                            "creator_type": null,
+                            "creator_id": null,
+                            "editor_type": null,
+                            "editor_id": null,
+                            "created_at": "2024-03-05T07:32:49.000000Z",
+                            "updated_at": "2024-03-05T07:32:49.000000Z"
+                        }
+                    }
+                ]
+            },
+            "itemAttributes": [
+                {
+                    "id": 8,
+                    "name": "Weight",
+                    "status": 5
+                }
+            ],
+            "extras": [],
+            "addons": [],
+            "offer": []
+        }
+    ]
+}

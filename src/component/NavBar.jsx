@@ -11,7 +11,7 @@ function NavBar() {
   return (
     
     <>
-      <header className="sticky top-0 z-10 p-4 mb-2 bg-white shadow-xs z-1000">
+      <header className="sticky top-0 z-10 p-4 bg-white shadow-xs z-1000">
         <div className="container flex flex-col items-center justify-between lg:flex-row">
           <div className="flex items-center justify-between w-full gap-5 xl:gap-8 lg:justify-start lg:w-fit">
             <a href="/" className="active router-link-exact-active header-logo">
@@ -53,13 +53,13 @@ function NavBar() {
               <FaBagShopping />
               <span>₹0.00</span>
             </button>
-            <a
-              href="/login"
+            <NavLink
+              to=""
               className="items-center justify-center hidden h-8 gap-1 px-3 text-sm font-medium text-white capitalize transition lg:flex w-fit rounded-3xl bg-btnTwo"
             >
               <FaRegUserCircle className="lab lab-profile-circle" />
               <span className="whitespace-nowrap">Log In</span>
-            </a>
+            </NavLink>
           </div>
         </div>
       </header>

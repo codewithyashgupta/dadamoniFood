@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Offers from "./component/Offers.jsx";
 import AllSweets from "./component/AllSweets.jsx";
+import Cart from "./component/Cart.jsx";
 
 
 
@@ -21,7 +22,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
       <Route path="/all-sweets" element={<AllSweets />} />
-      <Route path="offers" element={<Offers />} />
+      <Route path="" element={Cart} />
+      <Route path="/offers" element={<Offers />} />
     </Route>
   )
 );

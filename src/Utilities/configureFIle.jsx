@@ -4,6 +4,7 @@ export const Logo_URL = 'https://dadamoni.com/storage/266/logo.jpg';
 export const AppStore_URL = 'https://dadamoni.com/images/store/app-store.png'
 export const PlayStore_URL = 'https://dadamoni.com/images/store/play-store.png'
 export const FooterLogo_URL = 'https://dadamoni.com/storage/267/footer-logo.png'
+export const Cart_GIF_URL = 'https://dadamoni.com/images/cart/empty-cart.gif'
 
 // ----------Urls-------------------
 export const Android_URL = 'http://android.com'

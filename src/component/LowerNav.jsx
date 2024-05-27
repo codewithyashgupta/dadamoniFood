@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function LowerNav() {
   return (
     <div>
-      <nav class="flex items-center justify-between text-[#7A7F97] py-3 px-5 fixed bottom-0 left-0 z-20 w-full shadow-xl-top bg-white lg:hidden">
+      <nav class="flex items-center justify-between text-[#7A7F97] py-3 px-5 fixed bottom-0 left-0 z-50 w-full shadow-xl-top bg-white lg:hidden">
         <NavLink
           to="/"
           class="active active:text-[#F4AE00] text-[#F4AE00] flex flex-col items-center gap-1"

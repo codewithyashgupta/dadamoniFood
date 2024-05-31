@@ -20,3 +20,5 @@ export const Slider = 'https://dadamoni.com/api/frontend/slider?paginate=0&order
 export const Featured_Item = 'https://dadamoni.com/api/frontend/item/featured-items?order_column=id&order_type=desc'
 export const Popular_Item = 'https://dadamoni.com/api/frontend/item/popular-items?order_column=id&order_type=desc'
 export const Classic_Item = 'https://dadamoni.com/api/frontend/item-category/show/classic-sweets'
+export const Api_Key = 'b6d68vy2-m7g5-20r0-5275-h103w73453q120'
+export const header_Key = 'x-Api-Key'
